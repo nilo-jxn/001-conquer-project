@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "grid.css";
+
+.navbar {
+    height: 70px;
+    color: gray;
+    
+}
