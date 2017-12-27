@@ -1,6 +1,10 @@
 @import "reset.css";
 @import "grid.css";
 
+
+
+/* ========== NAVBAR ============== */
+
 .navbar {
     width: 100%;
     height: 70px;
@@ -18,12 +22,52 @@
     display: inline-block;
     background: gray;
     color: white;
-    padding: 20px 30px;
-    margin: 6px 8px 0px;
+    padding: 18px 30px;
+    margin: 8px 8px 0px;
     border: 1px solid whitesmoke;
 }
 
 .nav-item:hover {
     background: lightgrey;
 }
+
+/* ========== HEADER  ============== */
+
+.parallax {
+    background: url(https://images.unsplash.com/photo-1500402448245-d49c5229c564?auto=format&fit=crop&w=750&q=80);
+
+    height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+/* ========== ABOUT SECTION  ============== */
+
+.about-g-wrapper { /* MOBILE FIRST GRID */ 
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+
+
 
