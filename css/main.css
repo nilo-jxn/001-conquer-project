@@ -57,9 +57,10 @@
 /* ========== ABOUT SECTION  ============== */
 
 .about-g-wrapper { /* MOBILE FIRST GRID */ 
-    width: 90%;
+    width: 40%;
     max-width: 1240px;
     margin: 0 auto;
+    padding-top: 20px;
 
     display: grid;
 
@@ -68,6 +69,38 @@
     grid-gap: 20px;
 }
 
+.card {
+    background: #F2F2F2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+.card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.card article {
+    padding: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card .thumb {
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 60%;
+}
 
 
 

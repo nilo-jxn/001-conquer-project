@@ -47,7 +47,8 @@ table {
 	border-spacing: 0;
 }
 
-.nav-link {
+.nav-link,
+.card {
     text-decoration: none;
     color: inherit;
 }
