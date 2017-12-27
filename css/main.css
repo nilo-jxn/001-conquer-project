@@ -10,6 +10,7 @@
     height: 70px;
     background: white;
     margin: 0 auto;
+    display: none;
 }
 
 .navbar-container {
@@ -53,7 +54,8 @@
 }
 
 p.subtitle {
-    margin-top: 20px;
+    margin: 20px auto;
+
 }
 
 /* ========== ABOUT SECTION  ============== */
@@ -186,7 +188,8 @@ textarea {
 }
 
 .footer-container {
-    width: 600px;
+    width: 70%;
+    max-width: 600px;
     text-align: center;
     margin: 50px auto 5px;
 }
@@ -200,3 +203,4 @@ textarea {
 hr {
     border-top: 1px dashed #8c8b8b;
 }
+
