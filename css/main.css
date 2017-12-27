@@ -55,7 +55,6 @@
 
 p.subtitle {
     margin: 20px auto;
-
 }
 
 /* ========== ABOUT SECTION  ============== */
@@ -122,6 +121,19 @@ p.subtitle {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bridge-g-wrapper { /* MOBILE FIRST GRID */ 
+    width: 95%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
 }
 
 
