@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,6 +48,25 @@ table {
 	border-spacing: 0;
 }
 
+/* ============== FONTS================ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto Slab', serif;
+}
+
+p,
+a,
+button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ==================================== */
+
 h3 {
 	font-size: 1.3rem;
 	padding-bottom: 15px;
@@ -76,3 +96,18 @@ h3 {
 	padding-top: 20px;
 }
 
+button {
+	border: none;
+	background: white;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+button.read-more {
+	width: 120px;
+	margin-top: 10px;
+}
