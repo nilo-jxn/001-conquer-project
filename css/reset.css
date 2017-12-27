@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.4em;
 }
 ol, ul {
 	list-style: none;
@@ -47,8 +47,32 @@ table {
 	border-spacing: 0;
 }
 
+h3 {
+	font-size: 1.3rem;
+	padding-bottom: 15px;
+}
+
 .nav-link,
 .card {
     text-decoration: none;
     color: inherit;
 }
+
+.hero {
+	font-size: 5rem;
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+	margin: 10px 5px;
+}
+
+.subhero {
+	font-size: 2.5rem;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-size: 1.3rem;
+	padding-top: 20px;
+}
+
