@@ -1,7 +1,7 @@
 @import "reset.css";
 /* @import "grid.css"; */
 
-@media only screen and (min-device-width : 320px) {
+@media only screen and (min-device-width : 320px) { /* MOBILE FIRST */
 
 .site {
     width: 100vw;
@@ -226,3 +226,42 @@ hr {
 }
 
 } /* MOBILE MEDIA QUERY END */
+
+
+
+
+
+/* MEDIUM BREAKPOINT  ----------- */
+/*
+@media only screen and (min-device-width : 768px) {
+    
+    --- MEDIUM BREAKPOINT GRID FOR ABOUT SECTION ---
+    .about-g-wrapper { 
+        width: 95%;
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 20px 0;
+    
+        display: grid;
+    
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+
+    .item-1,
+    .item-3 {
+        grid-column: 1/2;
+    }
+
+    .item-2,
+    .item-4 {
+        grid-column: 2/3;
+    }
+
+    .item-5 {
+        grid-column: 1/3;
+    }
+    
+}
+/* 

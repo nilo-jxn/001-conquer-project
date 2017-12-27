@@ -1,22 +1,5 @@
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) {
-    /* Styles */
 
-        .site {
-            width: 100vw;
-            display: grid;
-            grid-template-columns: 1fr; 
-            grid-template-rows: auto;
-        }
 
-        .about-g-wrapper {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-        }
-        
-        
-    }
 
 
 
